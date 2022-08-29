@@ -12,7 +12,7 @@ const (
 )
 
 func Printf(format string, args ...interface{}) {
-	if pattern == INFO {
+	if pattern == DEBUG {
 		log.Printf(format, args...)
 	}
 }
